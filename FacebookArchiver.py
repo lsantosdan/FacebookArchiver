@@ -24,7 +24,7 @@ scripts = [
     ("9fileorganizer.py", "File Organizer", ": creating month/year folders, and moving files accordingly...")
 ]
 
-log_print("============================\n|| FACEBOOK ARCHIVER v0.2 ||\n||        CC BY-NC        ||\n============================\nRepository: https://github.com/lsantosdan/FacebookMediaArchiver\n\nMake sure you have the 9 scripts unpacked and at the root of your archive folder.\nIt is preferable to only keep the \"posts\", \"messages\", and \"tagged\" folders.\n")
+log_print("============================\n|| FACEBOOK ARCHIVER v0.2 ||\n||        CC BY-NC        ||\n============================\nRepository: https://github.com/lsantosdan/FacebookArchiver\n\nMake sure you have the 9 scripts unpacked and at the root of your archive folder.\nIt is preferable to only keep the \"posts\", \"messages\", and \"tagged\" folders.\n")
 
 # Count the number of files in the folders
 posts_files = count_files_in_folder("posts")
